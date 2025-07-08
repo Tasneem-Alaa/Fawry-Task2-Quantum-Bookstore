@@ -9,7 +9,7 @@ import java.util.*;
 public class Inventory {
     private static Map<String, Book> books;
     public Inventory() {
-        books = new HashMap<>(); // ✅ لازم تتعمل هنا
+        books = new HashMap<>();
     }
     public void addBook(Book book) {
         books.put(book.getIsbn(),book);
