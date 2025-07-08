@@ -9,7 +9,7 @@ public class Main {
 
         System.out.println("################################################################");
         System.out.println(">>> Testing Remove Outdated Books:");
-        testRemoveOutdatedBooks(20);  // ممكن تغيري الرقم لو حابة
+        testRemoveOutdatedBooks(20);
 
         System.out.println("################################################################");
         System.out.println(">>> Testing Buy Paper Book:");
